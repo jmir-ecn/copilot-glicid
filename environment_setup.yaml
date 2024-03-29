@@ -1,0 +1,14 @@
+name: glicid_model_env
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.8
+  - pytorch=1.10
+  - torchvision=0.11
+  - cudatoolkit=11.1
+  - huggingface_hub
+  - transformers
+  - scikit-learn
+  - matplotlib
+
